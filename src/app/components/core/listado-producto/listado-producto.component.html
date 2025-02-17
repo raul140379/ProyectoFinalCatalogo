@@ -1,0 +1,13 @@
+
+<!-- <h1>{{categoriaListadoInpunt.nombre}}</h1>
+<h3>{{categoriaListadoInpunt.id}}</h3> -->
+<div class="produc-list">
+    <h2 >{{ categoriaListadoInpunt.nombre}}</h2>
+    <app-tarjeta-producto  [productsTarjetaInpunt]="productsListadoInpunt" 
+    (productoSeleccionado)="irDetalle($event)"
+    >
+     
+        
+    </app-tarjeta-producto>
+</div>
+

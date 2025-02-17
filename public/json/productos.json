@@ -1,0 +1,68 @@
+[
+    {"id":1,"nombre":"Havana","precio":100,"img":"https://i.pinimg.com/originals/bb/74/fc/bb74fc4ebdad486b3f3dac0f985cebdd.jpg","categoria":1},
+    {"id":11,"nombre":"Havana 3","precio":110,"img":"https://i.pinimg.com/originals/d3/a5/a5/d3a5a5864229a500eb2beee0d88e970e.jpg","categoria":1},
+    {"id":12,"nombre":"Flor caña","precio":90,"img":"https://licorerialafontana.com/wp-content/uploads/2023/08/FLOR-DE-CANA-25ANOS-750ML.png","categoria":1},
+    {"id":13,"nombre":"Abuelo 1.4L","precio":150,"img":"https://th.bing.com/th/id/OIP.y1wXhUKeMonY4txkfzbyNgAAAA?rs=1&pid=ImgDetMain","categoria":1},
+    {"id":14,"nombre":"Bacardi","precio":78,"img":"https://th.bing.com/th/id/OIP.pl5bpzeMYx9Y_jBz7JAaHQHaI4?w=667&h=800&rs=1&pid=ImgDetMain","categoria":1},
+    {"id":15,"nombre":"Viejo de Caldas","precio":172,"img":"https://th.bing.com/th/id/OIP.4PFikLkkx5W3joMpN-ZTswHaF-?w=273&h=220&c=7&r=0&o=5&dpr=1.3&pid=1.7","categoria":1},
+    {"id":1,"nombre":"Medellin","precio":186,"img":"https://th.bing.com/th/id/OIP.TIUlUDO99gSS-D9A1ONyPwHaHa?w=217&h=216&c=7&r=0&o=5&dpr=1.3&pid=1.7","categoria":1},
+
+    {"id":2,"nombre":"Jose Cuervo","precio":110,"img":"https://i.pinimg.com/originals/55/f8/e8/55f8e8b20e155f2f1c23117909bff0f0.jpg","categoria":2},
+    
+    {"id":21,"nombre":"El Patron","precio":205,"img":"https://th.bing.com/th/id/OIP.gnDSYsWMcpcEbd7mzseR-gHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7","categoria":2},
+    
+    {"id":22,"nombre":"30-30","precio":272,"img":"https://th.bing.com/th/id/OIP.kFg-Jt36W5QTXLCnlr4v1wHaHa?w=199&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7","categoria":2},
+    
+    {"id":23,"nombre":"Gran Malo","precio":254,"img":"https://th.bing.com/th/id/OIP.eIaQ6AQT77mRIg_lfV1q8QHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7","categoria":2},
+    
+    {"id":24,"nombre":"Don Julio","precio":199,"img":"https://th.bing.com/th/id/OIP.QJxBrgqjr2hiL9aDLCHpPgAAAA?w=115&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7","categoria":2},
+
+    {"id":3,"nombre":"Pepsi Lata","precio":8,"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa44gksG9ew1ctGWB5Vuco1qvcQSE0DtJGOg&s","categoria":6},
+    
+    {"id":5,"nombre":"Seven lata","precio":12,"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZeP-pjhTfSkA1eekSgrtA68MAKxY2tfosXg&s","categoria":6},
+    
+    {"id":51,"nombre":"fanta 3L","precio":18,"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjoAKk9_kZhQunh9m_5XER4qNCCvQ0Sm0_zA&s","categoria":6},
+
+    {"id":52,"nombre":"sprite 2L","precio":12,"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4mfvHnbszum2hUtG60kORkuIxcZ91f4w6ppUk92ktklmgBgPz6WDbU_6dFTfico0Krm4&usqp=CAU","categoria":6},
+
+
+    {"id":4,"nombre":"Blue","precio":40,"img":"https://th.bing.com/th/id/OIP.x1EwxV8Ls9VyP5Zz4OKx9AAAAA?pid=ImgDet&w=184&h=230&c=7&dpr=1,3","categoria":3},
+    {"id":41,"nombre":"Absolut","precio":80,"img":"https://th.bing.com/th/id/R.e56b21d5f44f9a13e4d7b8a3a0747d5f?rik=FoKm7VjvcoAcJQ&pid=ImgRaw&r=0","categoria":3},
+    {"id":42,"nombre":"Wyborowa","precio":98,"img":"https://th.bing.com/th/id/OIP.cnGWol35doBfFVP2loBjtwAAAA?pid=ImgDet&w=184&h=308&c=7&dpr=1,3","categoria":3},
+    {"id":43,"nombre":"Kuper","precio":150,"img":"https://th.bing.com/th/id/OIP.fC115PDmgISqxjBxZtkR2gHaLH?pid=ImgDet&w=184&h=276&c=7&dpr=1,3","categoria":3},
+    {"id":44,"nombre":"Absolut sabor","precio":180,"img":"https://th.bing.com/th/id/OIP.90vBzmy1NuMZ_gOQZhkDdwHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain","categoria":3},
+
+    {"id":6,"nombre":"Kolbert","precio":30,"img":"https://winestore.com.bo/wp-content/uploads/2023/01/7772107000148.webp","categoria":4},
+    {"id":61,"nombre":"Alamos","precio":62,"img":"https://th.bing.com/th/id/OIP.KVnV6N3sb8GGKDJbVyLKbAHaKX?pid=ImgDet&w=184&h=258&c=7&dpr=1,3","categoria":4},
+    {"id":62,"nombre":"sottano","precio":75,"img":"https://th.bing.com/th/id/OIP.PuZwRnBkjeAYwkNiQ6KMlgAAAA?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7","categoria":4},
+    {"id":63,"nombre":"Gran Enemigo","precio":100,"img":"https://th.bing.com/th/id/OIP.-TC0Eyjy5D2LkP97_n9qwQHaHa?w=187&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7","categoria":4},
+    {"id":64,"nombre":"Casillero del Diablo","precio":178,"img":"https://th.bing.com/th/id/OIP.PJtZDzJLVagtn_NxsegaqwHaHa?rs=1&pid=ImgDetMain","categoria":4},
+    {"id":65,"nombre":"Don Melchor","precio":210,"img":"https://th.bing.com/th/id/OIP.Gkijs1JcuZmH-yRFN8xBUgHaHa?rs=1&pid=ImgDetMain","categoria":4},
+    {"id":66,"nombre":"Terruno","precio":32,"img":"https://th.bing.com/th/id/OIP.GjKYkoxeUp_GhJLrIenCOwHaEE?rs=1&pid=ImgDetMain","categoria":4},
+
+    {"id":7,"nombre":"Old Parts","precio":420,"img":"https://lojatopbirra.com.br/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/o/l/oldparr750ml9.jpg","categoria":5},
+    {"id":71,"nombre":"Chival Rigal","precio":365,"img":"https://th.bing.com/th/id/OIP.Sm6vdz3AwZAeLqWgKUrmXAHaHa?rs=1&pid=ImgDetMain","categoria":5},
+    {"id":71,"nombre":"Black Label","precio":368,"img":"https://oechsle.vteximg.com.br/arquivos/ids/1347867-1000-1000/image-6b1aa7cc9ae145dba06032b92f0b29cb.jpg?v=637494367941870000","categoria":5},
+    {"id":71,"nombre":"Jhonny Walker","precio":290,"img":"https://beveragedynamics.com/wp-content/uploads/2018/02/Johnnie_Walker_Black_Label_The_Jane_Walker_Edition.jpg","categoria":5},
+          
+    {"id":8,"nombre":"El Chamaco","precio":100,"img":"https://walmartsv.vtexassets.com/arquivos/ids/278491/Aguardiente-El-Chamaco-450Ml-1-6157.jpg?v=638031406064530000","categoria":7},
+    {"id":8,"nombre":"Antioqueño","precio":180,"img":"https://almacen.do/wp-content/uploads/2020/12/Aguardiente-AntioquenCC83o_-750-ml.jpg","categoria":7},
+    {"id":8,"nombre":"Chillan","precio":185,"img":"https://cdnx.jumpseller.com/asesoria-tecnologica-old-/image/7178737/chillan750cc.jpg?1636721960","categoria":7},
+    
+    {"id":8,"nombre":"Lider","precio":215,"img":"https://jumbocolombiaio.vtexassets.com/arquivos/ids/438063-800-800?v=638035199816270000&width=800&height=800&aspect=true","categoria":7},
+    
+    {"id":8,"nombre":"Empire","precio":245,"img":"https://www.ifexconnect.com/assets/images/product_catalog/large/645a928e21cb4852b04f8a2e7554f866_62d9fcbb76a12.png","categoria":7},
+
+    
+    {"id":9,"nombre":"Paceña Lata","precio":9,"img":"https://www.agavemicromercado.com/wp-content/uploads/6CBN-PACE-Cerv-Lat-354ml.jpg","categoria":8},
+
+    {"id":91,"nombre":"Heineken Lata","precio":10,"img":"https://th.bing.com/th/id/R.17e056cd65cc8a65ba8620a66bafa88b?rik=lFznG%2fwkbj5FiA&pid=ImgRaw&r=0","categoria":8},
+
+    {"id":92,"nombre":"Corona","precio":18,"img":"https://th.bing.com/th/id/OIP.qQWeL8fHE0pqOR2ZvleC7QHaHR?rs=1&pid=ImgDetMain","categoria":8},
+    {"id":93,"nombre":"Brahma","precio":8,"img":"https://geant.vteximg.com.br/arquivos/ids/265715-700-700/550941.jpg?v=637430497435000000","categoria":8},
+    {"id":94,"nombre":"Qkol","precio":6,"img":"https://th.bing.com/th/id/OIP.sO4DOFqOelnaJYj2wuXbvwHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain","categoria":8},
+    {"id":9,"nombre":"Quilmer","precio":10,"img":"https://th.bing.com/th/id/OIP.NM6ana6qc4KsGItiJChz_wAAAA?rs=1&pid=ImgDetMain","categoria":8},
+
+    {"id":95,"nombre":"Ducal","precio":9,"img":"https://th.bing.com/th/id/OIP.hIAVVgCBgLuabRMbsamgIQHaHa?rs=1&pid=ImgDetMain","categoria":8}
+
+]

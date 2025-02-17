@@ -1,0 +1,17 @@
+[
+    { "id": 1, "nombre": "Ron",  "detalle": "se elabora a partir de caña de azúcar, melaza, jugo de caña, azúcar de caña, jarabe de caña y otros derivados de la caña.", "imagen": "iron_man_toy.jpg"},
+
+    { "id": 2, "nombre": "Tequila",  "detalle": "El tequila se hace a base de la piña de la planta Agave tequilana Weber, también conocida como agave azul. Esta planta es perenne y crece en zonas áridas", "imagen": "iron_man_toy.jpg"},
+
+    { "id": 3, "nombre": "Vodka",  "detalle": "El tipo más común de vodka es el elaborado a base de cereales, que constituye la mayor parte del vodka que se produce en la actualidad. ", "imagen": "iron_man_toy.jpg"},
+
+    { "id": 4, "nombre": "Vino",  "detalle": "El vino se hace principalmente a base de uva, agua, alcohol etílico, azúcares, ácidos, vitaminas, minerales y polifenoles", "imagen": "iron_man_toy.jpg"},
+
+    { "id": 5, "nombre": "Whisky",  "detalle": "se elabora a partir de cereales fermentados y destilados. Los cereales más utilizados son la cebada, el trigo, el maíz y el centeno", "imagen": "iron_man_toy.jpg"},
+
+    { "id": 6, "nombre": "Gaseosas", "detalle": "Una gaseosa, refresco, fresco, soda o cola es una bebida hecha a base de agua carbonatada, edulcorantes naturales como fructosa o sacarosa o sintéticos como el ciclamato (E952), acidulantes, colorantes, antioxidantes, estabilizadores de acidez y conservantes", "imagen": "iron_man_toy.jpg"},
+
+    { "id": 7, "nombre": "Agua ardiente", "detalle": "El aguardiente es una bebida alcohólica que se puede elaborar a partir de caña de azúcar, frutas, hierbas aromáticas, granos o orujo", "imagen": "iron_man_toy.jpg"},
+
+    { "id": 8, "nombre": "Cerveza",  "detalle": "La cerveza se hace a base de agua, malta, lúpulo y levadura. También se le pueden agregar otros ingredientes para dar sabor, aroma, carbonatación, cuerpo o matices diferenciados", "imagen": "iron_man_toy.jpg"}
+  ]

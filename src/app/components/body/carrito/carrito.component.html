@@ -1,0 +1,80 @@
+<div  class="container-fluid mt-3" >
+    <h5> DETALLE DE MI COMPRA</h5>
+    <hr>
+  
+ </div>
+ <div class="row" style="margin: 1px;">
+    <div class="col-sm-20">
+        <div class="card">
+            <div class="car-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped text-center">
+                        <thead>
+                            <tr>
+                            <th>Producto</th>                            
+                            <th>Precio (Bs)</th>
+                            <th>Cantidad</th>
+                            <th>Importe (Bs)</th>
+                            <th>Accion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (item of listacarrito; track item.productos) {
+                                <tr>
+                                    <td>{{item.productos.nombre}}</td>
+                                                                        
+                                    <td>
+                                        {{item.productos.precio}} 
+                                    </td>
+                                    <!-- <td>{{item.cantidad}}</td> -->
+                                     <td>
+                                        <input type="number" class="form-control"
+                                        [(ngModel)]="item.cantidad" min="1"
+                                        (change)="actualizarTotal(item,$index)"
+                                        (keydown)="onkeyDown($event)">
+                                     </td>
+                                    <td>
+                                         {{(item.productos.precio* item.cantidad) | number : '1.2-2'}} 
+                                    </td>
+                                    <td>
+                                        <button (click)="eliminarItem($index)" type="button" class="btn btn-danger btn-sm">
+                                            <i class="fa fa-trash">Eliminar</i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                            @if (listacarrito.length==0) {
+                                <tr>
+                                    <td colspan="6" class="text-center"> No hay Producto </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="col-sm-9" style="margin: 20px;">
+    <div class="car">
+        <div class="car-body">
+            <div class="row">
+                <h5>RESUMEN COMPRA</h5>
+                <hr>
+                <div class="d-flex justify-content-between mb-4">
+                    <p class="mb-2">Total </p>
+                   <p class="mb-2">Bs/{{carritoService.totalCompra()| number : '1.2-2'}} </p> 
+                </div>
+                <button  [disabled]="listacarrito.length==0" class="btn btn-dark btn-block btn-lg" type="button">
+                    <div class="d-flex justify-content-between">
+                        <span > PROCESAR</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+

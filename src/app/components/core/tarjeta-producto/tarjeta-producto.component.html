@@ -1,0 +1,28 @@
+<div class="row"  >
+   @for (item of productsTarjetaInpunt; track item.id) {
+    <div class="col-sm-4 mt-2">
+        <div class="card" style="width: 15rem; text-align: center;" >
+           
+            <div class="card-body">
+                <img [src]="item.img" class="card-img-top" alt="..." style="width: 100px; height: 100px;">
+              <h5 class="card-title">{{item.nombre}}</h5>
+              <button (click)="productoSeleccionado" >
+                 detalle producto
+              </button>
+              <a class="nav-link text-white" routerLink="/detalleProducto"></a>
+              <p  class="card-text"></p>Detalle Producto
+              <!-- <a href="#" class="btn btn-primary">Agregar</a> -->
+             <p>
+                <small class="fw-bold">Bs/{{ item.precio}}</small>
+             </p> 
+              <button (click)="agregarProducto(item)" type="button" class="btn btn-sm btn-dark">
+                <i class="fa fa-shopping-cart"></i>Agregar
+            </button>
+            </div>
+          </div>
+
+    </div>
+    }
+</div>
+
+
