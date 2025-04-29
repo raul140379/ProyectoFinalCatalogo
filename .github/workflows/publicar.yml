@@ -1,0 +1,16 @@
+name: Publicar en Firebase Hosting (produccion)
+"on":
+    push:
+        branches:
+            -main
+
+jobs:
+    construir-proyecto:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - run: npm i
+            - run: npm install -g @angular/cli@latest
+            - run: ng build
+
+
